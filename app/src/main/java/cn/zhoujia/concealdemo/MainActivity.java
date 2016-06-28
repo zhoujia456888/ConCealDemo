@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_encrypt_str:
-                //加密
+                //加密字符串
                 byte[] cipherText = new byte[0];
                 try {
                     cipherText = crypto.encrypt("我随便在这里输了一点文字".getBytes(), entity);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 txtStr.setText(new String(cipherText));
                 break;
             case R.id.btn_decode_str:
-                // 解密
+                // 解密字符串
                 byte[] plainText = new byte[0];
                 try {
                     plainText = crypto.decrypt(crypto.encrypt("我随便在这里输了一点文字".getBytes(), entity), entity);

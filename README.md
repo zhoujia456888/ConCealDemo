@@ -6,3 +6,4 @@ FaceBook加密技术ConCeal的一个Demo.<br>
 
 <br>
 <br>
+<img src="https://github.com/zhoujia456888/ConCealDemo/blob/master/png/Screenshot_20160628-144134.png" alt="Drawing" width="250px" />
